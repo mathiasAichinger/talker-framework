@@ -9,21 +9,19 @@
 import Foundation
 
 public struct Talk {
-    public var globalId: String?
+    public var serverId: String?
     public var title: String
-    public var speakerImageURL: String?
-    public var speaker: String
-    public var rating: Int
+
     public var githubUrl: String?
     public var dateTimestamp: Double
+    
+    public var speakerId: String?
 
-    public init(globalId: String?, title: String, speaker: String, speakerImageURL: String?, rating: Int, githubUrl: String?, dateTimestamp: Double) {
-        self.globalId = globalId
+    public init(serverId: String?, title: String, rating: Int, githubUrl: String?, dateTimestamp: Double, speakerId: String? = nil) {
+        self.serverId = serverId
         self.title = title
-        self.speaker = speaker
-        self.speakerImageURL = speakerImageURL
-        self.rating = rating
         self.githubUrl = githubUrl
         self.dateTimestamp = dateTimestamp
+        self.speakerId = speakerId
     }
 }

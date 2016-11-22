@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21604C571DE4E43C007D93F3 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21604C561DE4E43C007D93F3 /* Speaker.swift */; };
+		21604C581DE4E43C007D93F3 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21604C561DE4E43C007D93F3 /* Speaker.swift */; };
+		21604C5A1DE4E44D007D93F3 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21604C591DE4E44D007D93F3 /* Feedback.swift */; };
+		21604C5B1DE4E44D007D93F3 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21604C591DE4E44D007D93F3 /* Feedback.swift */; };
 		219041291DE1F92A004A5E4E /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219041281DE1F92A004A5E4E /* Talk.swift */; };
 		2190412A1DE1F92A004A5E4E /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219041281DE1F92A004A5E4E /* Talk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21604C561DE4E43C007D93F3 /* Speaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		21604C591DE4E44D007D93F3 /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
 		219041071DE1F1D5004A5E4E /* TalkerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TalkerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		219041151DE1F1F5004A5E4E /* TalkerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TalkerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		219041281DE1F92A004A5E4E /* Talk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Talk.swift; sourceTree = "<group>"; };
@@ -62,6 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				219041281DE1F92A004A5E4E /* Talk.swift */,
+				21604C561DE4E43C007D93F3 /* Speaker.swift */,
+				21604C591DE4E44D007D93F3 /* Feedback.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -183,6 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				219041291DE1F92A004A5E4E /* Talk.swift in Sources */,
+				21604C571DE4E43C007D93F3 /* Speaker.swift in Sources */,
+				21604C5A1DE4E44D007D93F3 /* Feedback.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2190412A1DE1F92A004A5E4E /* Talk.swift in Sources */,
+				21604C581DE4E43C007D93F3 /* Speaker.swift in Sources */,
+				21604C5B1DE4E44D007D93F3 /* Feedback.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
