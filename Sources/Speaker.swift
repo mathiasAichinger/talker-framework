@@ -13,7 +13,7 @@ public struct Speaker {
     public var speakerName: String
     public var speakerImageURL: String?
 
-    init(serverId: String?, speakerName: String, speakerImageURL: String? = nil) {
+    public init(serverId: String?, speakerName: String, speakerImageURL: String? = nil) {
         self.serverId = serverId
         self.speakerName = speakerName
         self.speakerImageURL = speakerImageURL

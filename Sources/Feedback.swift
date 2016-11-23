@@ -15,7 +15,7 @@ public struct Feedback {
     
     public var talkId: String?
     
-    init(serverId: String?, rating: Int, feedbackText: String, talkId: String? = nil) {
+    public init(serverId: String?, rating: Int, feedbackText: String, talkId: String? = nil) {
         self.serverId = serverId
         self.rating = rating
         self.feedbackText = feedbackText

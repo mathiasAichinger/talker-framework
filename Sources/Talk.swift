@@ -16,6 +16,8 @@ public struct Talk {
     public var dateTimestamp: Double
     
     public var speakerId: String?
+    
+    public var loadedSpeaker: Speaker? = nil
 
     public init(serverId: String?, title: String, rating: Int, githubUrl: String?, dateTimestamp: Double, speakerId: String? = nil) {
         self.serverId = serverId
