@@ -11,19 +11,22 @@ import Foundation
 public struct Talk {
     public var serverId: String?
     public var title: String
-
-    public var githubUrl: String?
+    public var descriptionText: String
     public var dateTimestamp: Double
+    public var averageRating: Double
     
+    public var githubUrl: String?
     public var speakerId: String?
     
     public var loadedSpeaker: Speaker? = nil
 
-    public init(serverId: String?, title: String, rating: Int, githubUrl: String?, dateTimestamp: Double, speakerId: String? = nil) {
+    public init(serverId: String?, title: String, descriptionText: String, rating: Int, githubUrl: String?, dateTimestamp: Double, averageRating: Double = 0.0, speakerId: String? = nil) {
         self.serverId = serverId
         self.title = title
+        self.descriptionText = descriptionText
         self.githubUrl = githubUrl
         self.dateTimestamp = dateTimestamp
+        self.averageRating = averageRating
         self.speakerId = speakerId
     }
 }
