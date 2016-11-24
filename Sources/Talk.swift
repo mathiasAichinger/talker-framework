@@ -20,7 +20,7 @@ public struct Talk {
     
     public var loadedSpeaker: Speaker? = nil
 
-    public init(serverId: String?, title: String, descriptionText: String, rating: Int, githubUrl: String?, dateTimestamp: Double, averageRating: Double = 0.0, speakerId: String? = nil) {
+    public init(serverId: String?, title: String, descriptionText: String, githubUrl: String?, dateTimestamp: Double, averageRating: Double = 0.0, speakerId: String? = nil) {
         self.serverId = serverId
         self.title = title
         self.descriptionText = descriptionText
