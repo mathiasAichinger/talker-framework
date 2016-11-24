@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Talk {
+public class Talk {
     public var serverId: String?
     public var title: String
     public var descriptionText: String

@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Speaker {
+public class Speaker {
     public var serverId: String?
     public var speakerName: String
     public var speakerImageURL: String?

@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Feedback {
+public class Feedback {
     public var serverId: String?
     public var rating: Int = 0
     public var feedbackText: String
