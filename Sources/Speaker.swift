@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Speaker {
+open class Speaker {
     public var serverId: String?
     public var speakerName: String
     public var speakerImageURL: String?

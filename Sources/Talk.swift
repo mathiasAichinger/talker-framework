@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Talk {
+open class Talk {
     public var serverId: String?
     public var title: String
     public var descriptionText: String
